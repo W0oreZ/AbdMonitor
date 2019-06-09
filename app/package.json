@@ -1,0 +1,20 @@
+{
+  "name": "abdmonitor_app",
+  "version": "1.0.0",
+  "description": "electron serialmonitor app",
+  "main": "main.js",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "data-table": "^2.0.0",
+    "electron": "^5.0.3",
+    "electron-rebuild": "^1.8.5",
+    "serialport": "^7.1.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "electron .",
+    "install": "electron-rebuild"
+  },
+  "author": "Abderrazak EL-KHADIRI",
+  "license": "MIT"
+}
